@@ -79,8 +79,6 @@ const Todo = () => {
                     {todoEdit === todo.id 
                     ? (<button onClick={() => editTodo(todo.id)}>Submit Edit</button>) 
                     : (<button onClick={() => setTodoEdit(todo.id)}>Edit</button>)}
-                    
-                    
 
                 </div>)}
         </div>
